@@ -19,6 +19,6 @@ if args.number:
         result = factorial(args.number)
         print(f'The factorial of {args.number} is {result}')
     except ValueError:
-        print('Please enter a valid number')
-    
-    
+        print('Please enter a valid number')    
+else:
+    print('Please enter a number')
