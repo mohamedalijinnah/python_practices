@@ -25,4 +25,4 @@ def allPrimesTill(num):
         return primes    
 
 result = allPrimesTill(args.number)
-print(f'For {args.number} found {result if result else 'No primes'}')
+print(f'For {args.number} found {result if result else "No primes"}')
